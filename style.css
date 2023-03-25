@@ -1,0 +1,260 @@
+ .div 
+ {
+  margin: 10px solid ;
+  background-color: #F7F7F7;
+ }
+
+ 
+
+ .div1
+ {
+   
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    text-align: left;
+    padding: 0 0 0 80px;
+ }
+
+ .edit
+ {
+    margin-left: 20px;
+ }
+
+ .edit1 
+ {
+   text-decoration: none;
+   color: #00A5EC;
+ }
+
+ .span
+ {
+    color: #00A5EC;
+    
+ }
+ .none
+  {
+    text-decoration-line: none;
+ }
+
+ .container
+ {
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;   
+    position: relative;
+ }
+ .link 
+ {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1;
+ }
+
+ .fix
+ {
+    display: flex;
+    justify-content:end;
+    align-content: end;
+
+   
+ }
+
+ .remove
+ {
+   text-decoration: none;
+
+ }
+
+ .div2
+ {
+   
+    width: 352px;
+    height: 360px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 10px 25px; 
+    
+   
+ }
+
+ .div2:hover
+ {
+   box-shadow:0px 3px 30px #7B7B7B29 ;
+ }
+ .option1
+ {
+    text-decoration: line-through;
+    color: #C2C2C2;
+ }
+   
+
+                                                                /* ADD-ITEMS */
+
+.first
+{
+    width: 330px;
+    height: 200px;
+    background-color: rgb(234, 241, 241);
+    border-radius: 20px;
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%);
+   
+}
+
+.first:hover
+ {
+   box-shadow:0px 3px 30px #7B7B7B29 ;
+ }
+
+.second
+{
+   display: flex;
+   gap: 200px;
+  
+}
+.sepration
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+
+}
+
+.input
+{
+    width: 250px;
+    height: 25px;
+}
+
+.last
+{
+  position: absolute;
+  right: 40px; 
+  top: 140px;
+}
+.end
+{
+   text-decoration: none;
+   color: white;
+   font-weight: bolder;
+   border: 2px solid #00A5EC;
+   background-color: #00A5EC;
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+
+
+ 
+                                                                   /* TRIP TO PERIS */
+.popup
+{
+ 
+  position: absolute;
+   left: 48%;
+   transform:translate(-50%,-50%);
+  padding-top:750px ;
+
+
+}
+
+.seprate
+{
+display: flex;
+text-align: center;
+padding: 20px; 
+gap: 200px;  
+}  
+     
+.blur
+{
+    filter: blur(5px);
+   position: relative;
+   top: 0px;
+   left: 40px;
+}
+
+.cancel
+{
+   position: relative;
+   left: 70px;
+   bottom: -20px;
+}
+                 /* MEDIA QUERY   MOBILE-VIEW */              
+@media screen and (min-width:300px) and (max-width:600px) 
+{
+  
+   .div1
+   {
+     width: auto;
+   }
+
+  
+ .container
+ {
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;   
+ }
+
+
+   .hide
+   {
+   display: none;
+   }
+
+   .fix
+   {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+   }
+   .seprate
+  {
+   display: flex;
+   text-align: center;
+   padding: 20px; 
+   gap: 180px;  
+   }  
+   .div2
+ {
+   
+    width: 300px;
+    height: 360px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    /* margin: 10px 25px;  */
+    
+   
+ }
+
+}
+                  /* TABLET-VIEW */
+  @media screen and (min-width:600px) and (max-width:900px)
+  {
+   .fix
+   {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+   }
+   .hide
+   {
+   display: none;
+   }
+   
+  }                
+  
+  
